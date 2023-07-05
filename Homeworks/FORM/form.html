@@ -8,24 +8,25 @@
         <link rel="icon" type="image/x-icon" href="Letter-F-icon.png">
     </head>
     <body>
-        <form>
+        <form action="./server_form.php" method="post">
             <fieldset>
                 <legend>REGISTRATION FORM</legend>
-                    <label for="firstname">First name:</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="First name" minlength="2" maxlength="25" required><br>
-                    <label for="lastname">Last name:</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Last name" minlength="2" maxlength="25" required><br>
-                    <label for="birthday">Birthday:</label>
-                    <input type="text" id="birthday" name="birthday" placeholder="MM/DD/YYYY" required
-                        onfocus="(this.type='date')"
-                        onblur="(this.type='text')"><br>
-                    <label for="number_of_cards">Number of cards:</label>
-                    <input type="number" id="number_of_cards" name="number_of_cards" placeholder="Enter number"><br>
-                    <label for="pwd">Password:</label>
-                    <input type="password" id="pwd" name="pwd" placeholder="Password"><br>
-                    <label for="checkbox">Agreement checkbox:</label>
-                    <input type="checkbox" name="checkbox" id="checkbox" checked disabled><br>
-                    <input type="submit" value="Send info" id="submit">
+
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="First name" minlength="2" maxlength="25" required><br>
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Last name" minlength="2" maxlength="25" required><br>
+                <label for="birthday">Birthday:</label>
+                <input type="text" id="birthday" name="birthday" placeholder="MM/DD/YYYY" required
+                    onfocus="(this.type='date')"
+                    onblur="(this.type='text')"><br>
+                <label for="number_of_cards">Number of cards:</label>
+                <input type="number" id="number_of_cards" name="number_of_cards" placeholder="Enter number"><br>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd" placeholder="Password"><br>
+                <label for="checkbox">Agreement checkbox:</label>
+                <input type="checkbox" name="checkbox" id="checkbox" checked disabled><br>
+                <input type="submit" value="Send info" id="submit">
             </fieldset>
         </form>
     </body>
