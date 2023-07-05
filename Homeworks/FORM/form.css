@@ -4,7 +4,7 @@ form{
 }
 
 legend{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 label {
@@ -21,7 +21,7 @@ input {
     margin: 15px;
     font-size: 15px;
     align-self: flex-end;
-    margin-right: 100px;
+    margin-right: 5%;
 }
 
 #submit{
@@ -38,7 +38,8 @@ input {
 
 }
 
-input::-webkit-input-placeholder {
+
+input::placeholder {
     font-size: 12px;
     line-height: 4;
     font-style: italic;
